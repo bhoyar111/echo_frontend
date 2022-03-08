@@ -1,0 +1,89 @@
+@mixin checkbox{
+    border-color: $orange;
+    box-shadow: 0 0 0 0.2rem rgba(255, 97, 0, 0.5);
+}
+
+@mixin loginlabel{
+    font-weight: 300;
+    font-size: $fs-18;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@mixin mui-btn {
+    text-transform: capitalize !important;
+    font-family: 'Ubuntu', sans-serif !important;
+    font-weight: 400 !important; 
+}
+
+@mixin nocontent-dropdown{
+    .dropdown-toggle{
+        &:after{
+            content: none;
+        }
+    }
+    .dropdown-menu{
+        .dropdown-item{
+            font-size: $fs-14;
+        }
+    }
+}
+
+@mixin scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color:  $orange #E5E5E5;
+
+    &::-webkit-scrollbar-track
+    {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 6px;
+        background-color: #E5E5E5;        
+    }
+
+    &::-webkit-scrollbar
+    {
+        width: 8px;
+        background-color: #E5E5E5;
+    }
+
+    &::-webkit-scrollbar-thumb
+    {
+        border-radius: 6px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color:  $orange;
+    }
+}
+
+@mixin labelinput{
+    color: $grey !important; 
+    font-size: $fs-14 !important;
+    font-family: 'Ubuntu', sans-serif !important;
+    font-weight: 400;  
+}
+
+@mixin tablethtd{
+    font-size: $fs-14;
+    color: $light-black;
+}
+
+@mixin tableborder{
+    td, th{
+        vertical-align: middle;
+        border-top: 1px solid $table-border2;
+    } 
+}
+
+@mixin MuiTypography{
+    .MuiTypography-body2{
+        font-family: 'Ubuntu', sans-serif !important;
+        font-weight: 400 !important;
+        font-size: $fs-14 !important;
+        color: $grey !important;
+    }
+}
+
+@mixin MuiRootTypography{
+    .MuiMenuItem-root{
+        font-family: 'Ubuntu', sans-serif !important;  
+        font-size: $fs-14 !important;  
+    }
+}

@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../assets/fonts/icons/icomoon.eot?vttlxj');
+  src:  url('../assets/fonts/icons/icomoon.eot?vttlxj#iefix') format('embedded-opentype'),
+    url('../assets/fonts/icons/icomoon.ttf?vttlxj') format('truetype'),
+    url('../assets/fonts/icons/icomoon.woff?vttlxj') format('woff'),
+    url('../assets/fonts/icons/icomoon.svg?vttlxj#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-auction:before {
+  content: "\e90c";
+}
+.icon-document:before {
+  content: "\e90d";
+}
+.icon-truck:before {
+  content: "\e90e";
+}
+.icon-next-page:before {
+  content: "\e90a";
+}
+.icon-alarm-bell:before {
+  content: "\e90b";
+}
+.icon-file:before {
+  content: "\e900";
+}
+.icon-start-up:before {
+  content: "\e901";
+}
+.icon-gear:before {
+  content: "\e902";
+}
+.icon-shop:before {
+  content: "\e903";
+}
+.icon-notes:before {
+  content: "\e904";
+}
+.icon-select:before {
+  content: "\e905";
+}
+.icon-consulting:before {
+  content: "\e906";
+}
+.icon-battery:before {
+  content: "\e907";
+}
+.icon-pole:before {
+  content: "\e908";
+}
+.icon-radio-antenna:before {
+  content: "\e909";
+}
